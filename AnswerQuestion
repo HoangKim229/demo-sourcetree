@@ -75,3 +75,4 @@ Tabs: Mở nhiều kho lưu trữ trong các tab khác nhau để dễ dàng chu
 Hooks: Hỗ trợ các hooks để tự động hóa các tác vụ khi thực hiện các hành động như commit, push hoặc pull.
 +Tích hợp với hệ thống CI/CD:
 Continuous Integration/Continuous Deployment: Tích hợp với các hệ thống CI/CD để tự động kiểm tra và triển khai mã nguồn.
+10000000000000000000
