@@ -1,3 +1,77 @@
 i.	Git là gì ? GitHub là gì? Trình bày các chính năng trong Github ?
+Git là một hệ thống quản lý phiên bản phổ biến, cho phép bạn theo dõi các thay đổi trong mã nguồn của dự án và hợp nhất các phiên bản khác nhau.
+GitHub là một dịch vụ lưu trữ mã nguồn trực tuyến, cho phép bạn lưu trữ, quản lý và chia sẻ mã nguồn của dự án, cũng như làm việc cộng tác với các thành viên khác trong dự án.
+- Các chức năng chính trong Github:
++Repositories (Kho lưu trữ):
+Mã nguồn: Lưu trữ và quản lý mã nguồn của dự án.
+Branches: Tạo các nhánh để phát triển các tính năng mới hoặc sửa lỗi mà không ảnh hưởng đến nhánh chính.
+Tags: Gắn thẻ các phiên bản cụ thể của mã nguồn để dễ dàng theo dõi các phiên bản phát hành.
++Issues (Vấn đề):
+Theo dõi lỗi: Ghi nhận và theo dõi các lỗi trong dự án.
+Đề xuất cải tiến: Ghi nhận các đề xuất cải tiến từ cộng đồng hoặc nhóm phát triển.
+Labels và Milestones: Tổ chức và phân loại các vấn đề theo các nhãn và mốc thời gian.
++Pull Requests:
+Xem xét mã nguồn: Gửi và xem xét các thay đổi mã nguồn từ một nhánh sang nhánh khác.
+Thảo luận: Thảo luận về các thay đổi, yêu cầu chỉnh sửa và phê duyệt các thay đổi.
+Automated Testing: Tích hợp các kiểm tra tự động để đảm bảo chất lượng mã nguồn trước khi hợp nhất.
++Actions:
+CI/CD: Thiết lập và tự động hóa quy trình tích hợp liên tục (CI) và triển khai liên tục (CD).
+Workflows: Xây dựng các quy trình làm việc tự động để kiểm tra, xây dựng và triển khai dự án.
++Wiki:
+Tài liệu dự án: Tạo và quản lý tài liệu chi tiết về dự án, bao gồm hướng dẫn sử dụng, tài liệu API, và ghi chú phát triển.
++Projects:
+Quản lý công việc: Sử dụng bảng Kanban để tổ chức và theo dõi tiến độ công việc.
+Tasks: Tạo và quản lý các nhiệm vụ liên quan đến dự án.
++Gists:
+Chia sẻ mã nguồn: Chia sẻ các đoạn mã nhỏ hoặc ghi chú nhanh với cộng đồng hoặc nhóm phát triển.
++Insights:
+Phân tích hoạt động: Cung cấp các báo cáo và biểu đồ về hoạt động của kho lưu trữ, bao gồm sự đóng góp của các thành viên và lịch sử commit.
+Graphs: Hiển thị biểu đồ về lịch sử phát triển, các nhánh và các sự kiện trong dự án.
++Collaborators and Teams:
+Quản lý thành viên: Mời và quản lý quyền truy cập của các thành viên trong dự án.
+Teams: Tạo các nhóm làm việc và quản lý quyền truy cập dựa trên nhóm.
++Security:
+Vulnerability Alerts: Cảnh báo về các lỗ hổng bảo mật trong các thư viện phụ thuộc.
+Dependabot: Tự động cập nhật các thư viện phụ thuộc để khắc phục các lỗ hổng bảo mật.
++Code Review:
+Reviewers: Chỉ định các người kiểm tra mã nguồn để xem xét và phê duyệt các thay đổi.
+Suggestions: Đề xuất các thay đổi trực tiếp trong mã nguồn.
++Marketplace:
+Extensions: Tích hợp các công cụ và dịch vụ từ bên thứ ba để mở rộng chức năng của GitHub, chẳng hạn như các công cụ CI/CD, quản lý dự án, và bảo mật.
+
 ii.	SourceTree là gì? Trình bày các tính năng chính trong SourceTree ?
-saldjkfhsjlfsa
+SourceTree là một ứng dụng khách (client) cho Git và Mercurial, được phát triển bởi Atlassian, giúp người dùng dễ dàng quản lý và thao tác với các kho lưu trữ mã nguồn từ giao diện đồ họa (GUI) thay vì sử dụng dòng lệnh (command line). SourceTree cung cấp các công cụ mạnh mẽ để quản lý phiên bản và hỗ trợ các quy trình phát triển phần mềm phổ biến.
+- Các tính năng chính trong SourceTree:
++Giao diện đồ họa (GUI):
+Dễ sử dụng: Cung cấp giao diện người dùng thân thiện và trực quan, giúp dễ dàng thao tác với Git và Mercurial mà không cần dòng lệnh.
+Drag-and-Drop: Hỗ trợ kéo và thả để dễ dàng thao tác với các tập tin và nhánh.
++Quản lý kho lưu trữ:
+Đa nền tảng: Hỗ trợ cả Git và Mercurial, giúp quản lý nhiều loại kho lưu trữ khác nhau.
+Kho lưu trữ cục bộ và từ xa: Kết nối và làm việc với các kho lưu trữ cục bộ và từ xa một cách dễ dàng.
++Quản lý nhánh (Branch Management):
+Tạo và chuyển đổi nhánh: Dễ dàng tạo, xóa và chuyển đổi giữa các nhánh.
+Hiển thị cấu trúc nhánh: Hiển thị đồ thị cấu trúc nhánh và lịch sử commit, giúp theo dõi quá trình phát triển dự án.
++Commit và Staging:
+Commit: Tạo commit với giao diện người dùng dễ sử dụng, bao gồm cả việc thêm thông điệp commit.
+Staging: Chọn lọc các thay đổi để đưa vào commit thông qua staging area.
++Merge và Resolve Conflict:
+Merge nhánh: Hợp nhất các nhánh một cách dễ dàng và trực quan.
+Giải quyết xung đột: Công cụ hỗ trợ giải quyết xung đột khi hợp nhất các nhánh.
++Pull Requests và Code Review:
+Tạo và quản lý pull requests: Hỗ trợ tạo, xem và quản lý các pull requests trên GitHub, Bitbucket và các dịch vụ khác.
+Code review: Hỗ trợ xem xét mã nguồn và thảo luận về các thay đổi trực tiếp từ SourceTree.
++Tích hợp với dịch vụ lưu trữ mã nguồn:
+GitHub, Bitbucket, GitLab: Tích hợp trực tiếp với các dịch vụ lưu trữ mã nguồn phổ biến, giúp dễ dàng quản lý và đồng bộ hóa các kho lưu trữ.
++Quản lý submodule và subrepository:
+Submodule: Quản lý các submodule trong Git một cách hiệu quả.
+Subrepository: Hỗ trợ quản lý subrepository trong Mercurial.
++Công cụ Diff và Blame:
+Diff: Hiển thị sự khác biệt giữa các phiên bản mã nguồn để xem xét các thay đổi.
+Blame: Xem ai là người đã thay đổi từng dòng mã nguồn, giúp theo dõi trách nhiệm và lịch sử phát triển.
++Bookmark và Tab:
+Bookmarks: Lưu trữ và quản lý các kho lưu trữ thường dùng.
+Tabs: Mở nhiều kho lưu trữ trong các tab khác nhau để dễ dàng chuyển đổi và làm việc.
++Tự động hóa và Hooks:
+Hooks: Hỗ trợ các hooks để tự động hóa các tác vụ khi thực hiện các hành động như commit, push hoặc pull.
++Tích hợp với hệ thống CI/CD:
+Continuous Integration/Continuous Deployment: Tích hợp với các hệ thống CI/CD để tự động kiểm tra và triển khai mã nguồn.
